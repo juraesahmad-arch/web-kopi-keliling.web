@@ -4,6 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Setaring juraes - Kopi Keliling Sepeda</title>
+  
+  <!-- Font Google Poppins (Mencegah HP Mengubah Font Jadi Sambung) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,21 +29,17 @@
 
   <!-- Hero Section dengan Video Background -->
   <section id="home" class="hero">
-    <!-- Video Animasi / Footage Sepeda Starling -->
     <video autoplay loop muted playsinline class="bg-video">
       <source src="WhatsApp Video 2026-08-10 at 22.28.08.mp4" type="video/mp4">
       Browser Anda tidak mendukung tag video.
     </video>
 
-    <!-- Overlay Gelap Agar Teks Tetap Jelas Dibaca -->
     <div class="video-overlay"></div>
 
-    <!-- Konten Teks & Tombol -->
     <div class="hero-content">
       <h1 class="fade-text">Kopi Keliling Setaring</h1>
       <p>Seduhan hangat & dingin langsung dari sepeda ontel langgananmu. Murah, meriah, dan selalu ada di sudut jalan!</p>
       
-      <!-- Informasi Jam Operasional Singkat di Banner -->
       <div class="jam-badge">⏰ Buka Setiap Hari: 09.00 Pagi - 21.00 Malam</div>
       
       <div class="hero-buttons">
@@ -54,7 +56,6 @@
       <strong>Setaring Juraes</strong> adalah penyedia jasa kopi keliling siap seduh yang selalu setia menemani nongkrong di pinggir jalan, taman, hingga area perkantoran.
     </p>
 
-    <!-- Kartu Informasi Jam Operasional & Rute Lokasi -->
     <div class="info-grid">
       <div class="info-card">
         <div class="info-icon">⏰</div>
@@ -82,7 +83,6 @@
     <h2 class="section-title">Menu Favorit Setaring</h2>
     <div class="menu-grid">
       
-      <!-- Menu 1: Kopi Panas -->
       <div class="menu-card">
         <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80" alt="Kopi Panas">
         <div class="menu-info">
@@ -102,7 +102,6 @@
         </div>
       </div>
 
-      <!-- Menu 2: Es Kopi -->
       <div class="menu-card">
         <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=600&q=80" alt="Es Kopi">
         <div class="menu-info">
@@ -122,7 +121,6 @@
         </div>
       </div>
 
-      <!-- Menu 3: Es Teh & Non-Kopi -->
       <div class="menu-card">
         <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=600&q=80" alt="Minuman Non-Kopi">
         <div class="menu-info">
@@ -140,7 +138,6 @@
         </div>
       </div>
 
-      <!-- Menu 4: Minuman Energi -->
       <div class="menu-card">
         <img src="https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=600&q=80" alt="Minuman Energi">
         <div class="menu-info">
@@ -218,7 +215,6 @@
     <p class="copyright">&copy; 2026 Setaring Juraes. Salam Seduh Jalanan!</p>
   </footer>
 
-  <!-- Script Otomatis Mengarahkan ke WA -->
   <script>
     document.getElementById('orderForm').addEventListener('submit', function(e) {
       e.preventDefault();
